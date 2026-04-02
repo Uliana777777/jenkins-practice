@@ -13,7 +13,8 @@ on:
   #     - develop
   schedule:
     - cron: "0 13 * * *" # Runs at 13:00 UTC (8 AM EST)
-  workflow_dispatch:
+  
+    workflow_dispatch:
 
 jobs:
   test:
