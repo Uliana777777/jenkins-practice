@@ -48,7 +48,7 @@ jobs:
           echo "PRACTICE_PASSWORD=${{ secrets.PRACTICE_PASSWORD }}" >> .env
 
 
-#Running tests with Playwright 
+  #Running tests with Playwright 
       - name: Run Playwright tests
         run: npm run tests:headless
 
